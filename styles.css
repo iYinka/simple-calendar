@@ -12,7 +12,7 @@ html {
 .container {
   width: 100%;
   min-height: 100vh;
-  background: #EDFAFF;
+  background: #edfaff;
   color: #eee;
   display: flex;
   justify-content: center;
@@ -24,14 +24,14 @@ html {
   width: 45rem;
   height: 52rem;
   background: #222227;
- 
+
   box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
 }
 
-.month{
+.month {
   width: 100%;
   height: 12rem;
-  background: #009DDE;
+  background: #009dde;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,73 +40,74 @@ html {
   text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
-.month i{
+.month i {
   font-size: 2.5rem;
   cursor: pointer;
 }
 
-.month h1{
+.month h1 {
   font-size: 3rem;
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   margin-bottom: 1rem;
 }
 
-.month p{
+.month p {
   font-size: 1.6rem;
 }
 
-.weekdays{
+.weekdays {
   width: 100%;
   height: 5rem;
-  padding: 0 .4rem;
-  display:flex;
+  padding: 0 0.4rem;
+  display: flex;
   align-items: center;
 }
 
-.weekdays div{
+.weekdays div {
   font-size: 1.5rem;
   font-weight: 400;
-  letter-spacing: .1rem;
-  width: calc(44.2rem/ 7);
+  letter-spacing: 0.1rem;
+  width: calc(44.2rem / 7);
   display: flex;
   justify-content: center;
   align-items: center;
   text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
-.days{
+.days {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: .2rem;
+  padding: 0.2rem;
 }
 
-.days div{
+.days div {
   font-size: 1.4rem;
-  margin: .3rem;
-  width: calc(40.2rem/ 7);
+  margin: 0.3rem;
+  width: calc(40.2rem / 7);
   height: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
-  transition: background-color .2s;
+  transition: background-color 0.2s;
   color: #fff;
 }
 
-.days div:hover:not(.today){
-  background: #EDFAFF;
-  border: .2rem solid #777;
+.days div:hover:not(.today) {
+  background: #edfaff;
+  border: 0.2rem solid #777;
   cursor: pointer;
-
+  color: #000;
 }
 
-.prev-date, .next-date{
-  opacity: .5;
+.prev-date,
+.next-date {
+  opacity: 0.5;
 }
 
-.today{
-  background: #009DDE;
+.today {
+  background: #009dde;
 }
